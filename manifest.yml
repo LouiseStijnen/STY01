@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: STY01
+  host: STY01
+  disk_quota: 1024M
+  services:
+  - STY01-cloudantNoSQLDB
